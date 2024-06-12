@@ -1,0 +1,18 @@
+/* Styling caption for figure */
+figcaption{
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.1em;
+    font-weight: bold;
+}
+
+/* shadow for card */
+#card-body{
+    border: 2px solid;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+
+/* backgound for middlepart */
+#middle-part{
+    background-image: radial-gradient(  rgb(69, 216, 216), rgb(139, 123, 203));
+}

@@ -1,0 +1,76 @@
+/* Title-page styling */
+
+.titlePage {
+
+	/* gradient background*/
+
+	background-image: radial-gradient(  rgb(250, 200, 121), rgb(214, 80, 199));
+	
+}
+
+/* Interests Styling */
+.interestsContent {
+	min-height: 45rem;
+	/* image from pinterest-https://pin.it/1zvYQdr */
+	background-image: url('../img/homebackground.jpg');
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  
+}
+
+/* Card Styling */
+
+.interestsContent .card {
+	box-shadow: -3px 3px 3px 2px rgba(0, 0, 0, 20%), 3px 3px 3px 2px rgba(0, 0, 0, 20%);
+	padding: 0;
+	border-radius: 20px;
+	min-height: 23rem;
+	background-color: #F8F9FA;
+}
+
+.card-img {
+	height: 10rem;
+	width: 10rem;
+}
+
+/* Styling the picture dump */
+
+.myValuesContainer {
+	/* Background Image taken from: https://pin.it/fs9lnA0 */
+	background-image: url(../img/bgoflast.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	filter: grayscale(50%);
+
+}
+
+.myValuesContainer .h3 {
+	margin-top: 4rem;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 300px;
+    margin: auto;
+}
+
+img {
+    max-width: 400px;
+    max-height: 350px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
+
+
